@@ -24,11 +24,12 @@ if (un == 0) {
   console.log(ph + " - " + un);
 
   //Thing.
+  //Help! This glitches - whereas the third symbol does not appear!
   if(n1 == 0) {document.getElementById('num').innerHTML = ph}
   else if (n2 == 0) {document.getElementById('num').innerHTML = n1 + " " + a1 + " " + ph}
   else if (n3 == 0) {document.getElementById('num').innerHTML = n1 + " " + a1 + " " + n2 + " " + a2 + " " + ph}
   else if (n4 == 0) {document.getElementById('num').innerHTML = n1 + " " + a1 + " " + n2 + " " + a2 + " " + n3 + " " + a3 + " " + ph}
-
+}
 function add() {
   if(n1 == 0) {
     n1 = ph;
